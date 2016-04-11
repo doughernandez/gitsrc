@@ -1,6 +1,5 @@
 #! /bin/bash
 
-
 # source in the colors
 source colors.sh
 
@@ -28,4 +27,3 @@ export PATH=$PATH:~/bin
 
 # look at the perl @INC
 alias see_inc="perl -e 'foreach( @INC ){ print \$_ . \"\n\" }'" 
-
